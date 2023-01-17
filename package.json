@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is the learning",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashraf-rahil-shaik/Namste-React.git"
+  },
+  "author": "\"Ashraf Rahil\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashraf-rahil-shaik/Namste-React/issues"
+  },
+  "homepage": "https://github.com/ashraf-rahil-shaik/Namste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
