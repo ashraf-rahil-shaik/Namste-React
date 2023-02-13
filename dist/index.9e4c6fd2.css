@@ -1,6 +1,55 @@
 #title {
   color: red;
-  background-color: #ff0;
+  background-color: #0d0d0d;
+}
+
+.header > img {
+  width: 10%;
+  margin: 10px;
+}
+
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+}
+
+.nav-items > ul {
+  cursor: pointer;
+  justify-content: space-between;
+  gap: 60px;
+  font-size: 1.25rem;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.card {
+  width: 200px;
+  word-wrap: break-word;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card > img {
+  width: 100%;
+  margin: 0;
+}
+
+.restaurant-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */
