@@ -51,6 +51,7 @@ margin:0px;
     }
     .restaurant-list{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
+    
     }
