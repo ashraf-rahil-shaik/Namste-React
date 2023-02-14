@@ -765,14 +765,20 @@ import {Header} from "./Header";
             </div>
         )
     }
-
+const Footer=()=>{
+  return(
+    <>
+    <h1>Footer</h1>
+    </>
+  )
+}
 
 const AppLayout= ()=>{
     return (
 <>
 <Header />
         <Body/>
-
+<Footer/>
 </>
     )     
 }

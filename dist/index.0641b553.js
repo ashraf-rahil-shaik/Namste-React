@@ -3721,33 +3721,51 @@ const RestaurantCard = ({ name , cuisines , cloudinaryImageId , avgRating  })=>{
     }, undefined);
 };
 _c1 = RestaurantCard;
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            children: "Footer"
+        }, void 0, false, {
+            fileName: "src/app.js",
+            lineNumber: 697,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false);
+};
+_c2 = Footer;
 const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _header.Header), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 697,
+                lineNumber: 702,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 698,
+                lineNumber: 703,
                 columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
+                fileName: "src/app.js",
+                lineNumber: 704,
+                columnNumber: 5
             }, undefined)
         ]
     }, void 0, true);
 };
-_c2 = AppLayout;
+_c3 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "src/app.js",
-    lineNumber: 703,
+    lineNumber: 708,
     columnNumber: 13
 }, undefined));
-var _c, _c1, _c2;
+var _c, _c1, _c2, _c3;
 $RefreshReg$(_c, "Body");
 $RefreshReg$(_c1, "RestaurantCard");
-$RefreshReg$(_c2, "AppLayout");
+$RefreshReg$(_c2, "Footer");
+$RefreshReg$(_c3, "AppLayout");
 
   $parcel$ReactRefreshHelpers$f79a.postlude(module);
 } finally {
